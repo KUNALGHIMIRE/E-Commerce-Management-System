@@ -1,46 +1,68 @@
-# 🛍️ TechStore - Full-Stack E-Commerce Application
+**TechStore - Full-Stack E-Commerce Application**
 
-A full-stack e-commerce web application that allows users to browse products, manage a shopping cart, and complete checkout. Built with a scalable architecture using React, Flask, and PostgreSQL.
+A scalable full-stack e-commerce web application that allows users to browse products, manage a shopping cart, and complete checkout. Built using a 3-tier architecture with React, Flask, and PostgreSQL.
 
----
+**Live Demo**
+👉 https://e-commerce-management-system-10.onrender.com/
 
-## 🔗 Live Demo
-https://e-commerce-management-system-10.onrender.com/
-
----
-
-# 🧠 System Overview
-
+**System Overview**
+Architecture Diagram
 <img width="298" height="176" alt="image" src="https://github.com/user-attachments/assets/0a7b7ec7-34ff-4f52-b421-b6b21e1d1b17" />
 
-
 **System Flow**
-1. User browses products on React UI
-2. React sends API request to Flask backend
-3. Backend fetches product data from PostgreSQL
-4. User adds products to cart (session-based)
-5. Checkout creates order entry in database
-6. Confirmation returned to frontend
+User interacts with React frontend
 
-## 🧠 System Design
+Frontend sends REST API requests to Flask backend
 
-The application follows a 3-tier architecture:
+Flask processes business logic
 
-1. Presentation Layer → React frontend handles UI and user interaction
-2. Application Layer → Flask REST API handles business logic
-3. Data Layer → PostgreSQL stores users, products, cart, and orders
+PostgreSQL retrieves/stores product, cart, and order data
 
-Communication happens via REST APIs using JSON format.
+Backend returns JSON response
 
+Frontend updates UI dynamically
+
+**System Design**
+
+The system follows a 3-tier architecture:
+
+1️⃣ Presentation Layer (Frontend)
+Built with React.js
+
+Handles UI rendering and user interaction
+
+Communicates with backend via REST APIs
+
+2️⃣ Application Layer (Backend)
+Built using Flask (Python)
+
+Handles authentication logic, cart management, and order processing
+
+Exposes RESTful API endpoints
+
+3️⃣ Data Layer (Database)
+```
+PostgreSQL database
+Stores:
+Users
+Products
+Cart items
+Orders
+```
+
+**API Communication**
+```
+REST API-based architecture
+JSON used for request/response
+Stateless backend design
+```
 **Features**
-
-User Features
-
-Browse product catalog with images
+🧑‍💻 User Features
+Browse products with images
 
 Category filtering (Electronics, Fashion, etc.)
 
-Product search functionality
+Search products
 
 Add to cart with quantity control
 
@@ -48,8 +70,7 @@ Remove/update cart items
 
 Checkout system with order confirmation
 
-**System Features**
-
+⚙️ System Features
 Session-based cart persistence
 
 RESTful API architecture
@@ -58,8 +79,9 @@ Modular backend structure
 
 Database-driven product & order management
 
-**Tech Stack**
+Scalable 3-tier architecture
 
+🧰 Tech Stack
 Frontend: React.js, HTML5, CSS3
 
 Backend: Flask (Python)
@@ -68,23 +90,22 @@ Database: PostgreSQL
 
 Deployment: Render
 
-**System Architecture**
+🗄️ Database Schema
+Users → (id, name, email, password)
 
-[ React Frontend ]
+Products → (id, name, price, category, image)
 
-        ↓
-[ Flask REST API ]
+Cart → (id, user_id, product_id, quantity)
 
-        ↓
-[ PostgreSQL Database ]
+Orders → (id, user_id, total_price, status)
 
-**Database Schema**
+🚀 Key Design Highlights
+3-tier scalable architecture (Frontend → Backend → Database)
 
-Users (id, name, email, password)
+REST API communication using JSON
 
-Products (id, name, price, category, image)
+Session-based cart management
 
-Cart (id, user_id, product_id, quantity)
+Modular and maintainable backend design
 
-Orders (id, user_id,)
-
+Production deployment using Render
