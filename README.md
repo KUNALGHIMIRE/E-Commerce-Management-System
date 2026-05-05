@@ -48,7 +48,15 @@ The system is designed using a **3-tier architecture** to ensure scalability, mo
   - Products  
   - Cart items  
   - Orders
-  
+
+  ## 🧠 Engineering Decisions
+
+Key architectural and design decisions made to ensure scalability and simplicity:
+
+- Adopted a 3-tier architecture to clearly separate UI, business logic, and data layers for better scalability and maintainability  
+- Used REST APIs to enable stateless, simple, and standardized communication between frontend and backend  
+- Implemented session-based cart management to keep the system lightweight while avoiding complex authentication overhead for cart operations
+
 ## 🔌 API Communication
 
 The application follows a **RESTful API architecture** for communication between frontend and backend.
