@@ -68,6 +68,10 @@ Deployment: Render
 **Database Schema**
 
 Users (id, name, email, password)
+
 Products (id, name, price, category, image)
+
 Cart (id, user_id, product_id, quantity)
+
 Orders (id, user_id,)
+
