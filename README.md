@@ -11,7 +11,6 @@ https://e-commerce-management-system-10.onrender.com/
 
 # 🧠 System Overview
 
-```text
 React Frontend → Flask REST API → PostgreSQL Database
 
 **System Flow**
@@ -23,7 +22,7 @@ React Frontend → Flask REST API → PostgreSQL Database
 6. Confirmation returned to frontend
 
 
-Features
+**Features**
 🛒 User Features
 Browse product catalog with images
 
@@ -37,7 +36,7 @@ Remove/update cart items
 
 Checkout system with order confirmation
 
-⚙️ System Features
+**System Features**
 Session-based cart persistence
 
 RESTful API architecture
@@ -46,21 +45,21 @@ Modular backend structure
 
 Database-driven product & order management
 
-Tech Stack
+**Tech Stack**
 Frontend: React.js, HTML5, CSS3
 Backend: Flask (Python)
 Database: PostgreSQL
 Deployment: Render
 
-🧠 System Architecture
+**System Architecture**
 [ React Frontend ]
         ↓
 [ Flask REST API ]
         ↓
 [ PostgreSQL Database ]
 
-🗄️ Database Schema
+**Database Schema**
 Users (id, name, email, password)
 Products (id, name, price, category, image)
 Cart (id, user_id, product_id, quantity)
-Orders (id, user_id, total, status)
+Orders (id, user_id,)
