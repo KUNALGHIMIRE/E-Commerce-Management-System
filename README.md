@@ -11,7 +11,8 @@ https://e-commerce-management-system-10.onrender.com/
 
 # 🧠 System Overview
 
-React Frontend → Flask REST API → PostgreSQL Database
+<img width="298" height="176" alt="image" src="https://github.com/user-attachments/assets/0a7b7ec7-34ff-4f52-b421-b6b21e1d1b17" />
+
 
 **System Flow**
 1. User browses products on React UI
