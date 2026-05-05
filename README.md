@@ -55,7 +55,7 @@ Stateless backend design
 - DELETE /cart/:id → Remove item from cart  
 - POST /checkout → Create order
 - 
-**Features**
+## Features
 
 User Features
 
