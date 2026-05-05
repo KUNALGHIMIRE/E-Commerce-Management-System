@@ -20,7 +20,7 @@ Built using a **3-tier architecture** with React, Flask, and PostgreSQL.
 - PostgreSQL retrieves/stores product, cart, and order data  
 - Backend returns JSON response  
 - Frontend updates UI dynamically
-- 
+
 ## 🏗️ System Design
 
 The system is designed using a **3-tier architecture** to ensure scalability, modularity, and maintainability.
