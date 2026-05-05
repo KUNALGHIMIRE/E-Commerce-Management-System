@@ -49,6 +49,7 @@ Modular backend structure
 Database-driven product & order management
 
 **Tech Stack**
+
 Frontend: React.js, HTML5, CSS3
 
 Backend: Flask (Python)
@@ -60,8 +61,10 @@ Deployment: Render
 **System Architecture**
 
 [ React Frontend ]
+
         ↓
 [ Flask REST API ]
+
         ↓
 [ PostgreSQL Database ]
 
