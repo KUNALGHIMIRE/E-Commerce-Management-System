@@ -9,15 +9,15 @@ A scalable full-stack e-commerce web application that allows users to browse pro
 Architecture Diagram
 <img width="298" height="176" alt="image" src="https://github.com/user-attachments/assets/0a7b7ec7-34ff-4f52-b421-b6b21e1d1b17" />
 
-**System Flow**
-```
+## System Flow
+
 1.User interacts with React frontend
 2.Frontend sends REST API requests to Flask backend
 3.Flask processes business logic
 4.PostgreSQL retrieves/stores product, cart, and order data
 5.Backend returns JSON response
 6.Frontend updates UI dynamically
-```
+
 **System Design**
 ```
 The system follows a 3-tier architecture:
