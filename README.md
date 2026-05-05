@@ -54,17 +54,17 @@ Stateless backend design
 - POST /cart → Add item to cart  
 - DELETE /cart/:id → Remove item from cart  
 - POST /checkout → Create order
-- 
+
 ## Features
 
 User Features
 
-1.Browse products with images
-2.Category filtering (Electronics, Fashion, etc.)
-3.Search products
-4.Add to cart with quantity control
-5.Remove/update cart items
-6.Checkout system with order confirmation
+Browse products with images
+Category filtering (Electronics, Fashion, etc.)
+Search products
+Add to cart with quantity control
+Remove/update cart items
+Checkout system with order confirmation
 
 **System Features**
 ```
