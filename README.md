@@ -21,6 +21,15 @@ React Frontend → Flask REST API → PostgreSQL Database
 5. Checkout creates order entry in database
 6. Confirmation returned to frontend
 
+## 🧠 System Design
+
+The application follows a 3-tier architecture:
+
+1. Presentation Layer → React frontend handles UI and user interaction
+2. Application Layer → Flask REST API handles business logic
+3. Data Layer → PostgreSQL stores users, products, cart, and orders
+
+Communication happens via REST APIs using JSON format.
 
 **Features**
 
