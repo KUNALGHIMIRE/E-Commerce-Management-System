@@ -39,6 +39,7 @@ Remove/update cart items
 Checkout system with order confirmation
 
 **System Features**
+
 Session-based cart persistence
 
 RESTful API architecture
@@ -49,11 +50,15 @@ Database-driven product & order management
 
 **Tech Stack**
 Frontend: React.js, HTML5, CSS3
+
 Backend: Flask (Python)
+
 Database: PostgreSQL
+
 Deployment: Render
 
 **System Architecture**
+
 [ React Frontend ]
         ↓
 [ Flask REST API ]
@@ -61,6 +66,7 @@ Deployment: Render
 [ PostgreSQL Database ]
 
 **Database Schema**
+
 Users (id, name, email, password)
 Products (id, name, price, category, image)
 Cart (id, user_id, product_id, quantity)
