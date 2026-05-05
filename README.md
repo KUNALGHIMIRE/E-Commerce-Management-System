@@ -58,14 +58,14 @@ Stateless backend design
 **Features**
 
 User Features
-```
+
 1.Browse products with images
-2.ategory filtering (Electronics, Fashion, etc.)
+2.Category filtering (Electronics, Fashion, etc.)
 3.Search products
 4.Add to cart with quantity control
 5.Remove/update cart items
 6.Checkout system with order confirmation
-```
+
 **System Features**
 ```
 1.Session-based cart persistence
