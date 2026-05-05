@@ -47,6 +47,14 @@ REST API-based architecture
 JSON used for request/response
 Stateless backend design
 ```
+
+## 🔌 API Endpoints
+
+- GET /products → Fetch all products  
+- POST /cart → Add item to cart  
+- DELETE /cart/:id → Remove item from cart  
+- POST /checkout → Create order
+- 
 **Features**
 
 User Features
