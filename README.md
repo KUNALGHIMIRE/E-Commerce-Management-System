@@ -48,7 +48,7 @@ The system is designed using a **3-tier architecture** to ensure scalability, mo
   - Products  
   - Cart items  
   - Orders
-  - 
+  
 ## 🔌 API Communication
 
 The application follows a **RESTful API architecture** for communication between frontend and backend.
