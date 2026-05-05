@@ -25,11 +25,17 @@ React Frontend → Flask REST API → PostgreSQL Database
 **Features**
 
 User Features
+
 Browse product catalog with images
+
 Category filtering (Electronics, Fashion, etc.)
+
 Product search functionality
+
 Add to cart with quantity control
+
 Remove/update cart items
+
 Checkout system with order confirmation
 
 **System Features**
