@@ -33,7 +33,6 @@ Handles authentication logic, cart management, and order processing
 Exposes RESTful API endpoints
 
 3️⃣ Data Layer (Database)
-```
 PostgreSQL database
 Stores:
 Users
