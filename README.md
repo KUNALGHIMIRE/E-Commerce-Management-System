@@ -1,6 +1,8 @@
-**TechStore - Full-Stack E-Commerce Application**
+# 🛒 TechStore - Full-Stack E-Commerce Application
 
-A scalable full-stack e-commerce web application that allows users to browse products, manage a shopping cart, and complete checkout. Built using a 3-tier architecture with React, Flask, and PostgreSQL.
+A scalable full-stack e-commerce web application that allows users to browse products, manage a shopping cart, and complete checkout.
+
+Built using a **3-tier architecture** with React, Flask, and PostgreSQL.
 
 **Live Demo**
 👉 https://e-commerce-management-system-10.onrender.com/
