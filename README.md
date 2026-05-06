@@ -128,4 +128,25 @@ The project is designed with production-level engineering principles:
 - REST API communication using JSON for lightweight and efficient data exchange  
 - Session-based cart management for persistent user experience  
 - Modular and maintainable backend design for easy scalability and updates  
-- Production deployment using Render for real-world hosting experience  
+- Production deployment using Render for real-world hosting experience
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the backend directory:
+
+```env
+# Database Configuration
+DB_HOST=your_supabase_host
+DB_PORT=5432
+DB_NAME=postgres
+DB_USER=postgres
+DB_PASSWORD=your_password
+
+# API Configuration
+SECRET_KEY=your_secret_key
+JWT_SECRET_KEY=your_jwt_secret
+
+# Frontend URL (for CORS)
+FRONTEND_URL=http://localhost:5173
+
+
