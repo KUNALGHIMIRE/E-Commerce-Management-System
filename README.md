@@ -135,13 +135,11 @@ The project is designed with production-level engineering principles:
 Create a `.env` file in the backend directory:
 
 # Database Configuration
-
-DB_HOST=your_supabase_host
-DB_PORT=5432
-DB_NAME=postgres
-DB_USER=postgres
-DB_PASSWORD=your_password
-
+DB_HOST=your_supabase_host  
+DB_PORT=5432  
+DB_NAME=postgres  
+DB_USER=postgres  
+DB_PASSWORD=your_password  
 
 # API Configuration
 
