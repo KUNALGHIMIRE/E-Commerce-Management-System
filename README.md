@@ -4,6 +4,9 @@ A scalable full-stack e-commerce web application that allows users to browse pro
 
 Built using a **3-tier architecture** with React, Flask, and PostgreSQL.
 
+## 🚀 Live Demo
+[https://e-commerce-management-system.vercel.app](https://e-commerce-management-system.vercel.app)
+
 ## 🧱 System Overview
 
 ### 📌 Architecture Diagram
