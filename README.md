@@ -144,6 +144,7 @@ Create a `.env` file in the backend directory:
 ## API Configuration
 
 -SECRET_KEY=your_secret_key
+
 -JWT_SECRET_KEY=your_jwt_secret
 
 ## Frontend URL (for CORS)
