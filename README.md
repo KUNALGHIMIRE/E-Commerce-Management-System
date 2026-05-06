@@ -131,10 +131,9 @@ The project is designed with production-level engineering principles:
 - Production deployment using Render for real-world hosting experience
 
 ## 🔐 Environment Variables
-```
+
 Create a `.env` file in the backend directory:
 
-```env
 # Database Configuration
 DB_HOST=your_supabase_host
 DB_PORT=5432
@@ -149,4 +148,3 @@ JWT_SECRET_KEY=your_jwt_secret
 # Frontend URL (for CORS)
 FRONTEND_URL=http://localhost:5173
 
-```
