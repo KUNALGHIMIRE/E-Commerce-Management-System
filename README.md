@@ -141,11 +141,10 @@ DB_NAME=postgres
 DB_USER=postgres  
 DB_PASSWORD=your_password  
 
+
 # API Configuration
-
-SECRET_KEY=your_secret_key
-JWT_SECRET_KEY=your_jwt_secret
-
+SECRET_KEY=your_secret_key  
+JWT_SECRET_KEY=your_jwt_secret  
 
 # Frontend Configuration
 
